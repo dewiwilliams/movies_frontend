@@ -1,0 +1,78 @@
+
+h1 {
+  text-align: center;
+}
+h3 {
+  margin: 0 0 10px;
+}
+
+.movielist {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.movie__container {
+  position: relative;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.movie__add-new-plus {
+  font-size: 30px;
+  font-weight: bold;
+}
+.movie__add-new {
+  font-size: 20px;
+  cursor: pointer;
+}
+.movie__edit {
+  color: black;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.edit-movie__container {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+.edit-movie__heading {
+  text-align: center;
+}
+.edit-movie__modal {
+  position: relative;
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  max-width: 500px;
+  text-align: center;
+}
+.edit-movie__close {
+  color: black;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+.edit-movie__field-title {
+  width: 100px;
+  display: inline-block;
+  text-align: right;
+  margin: 0 0 10px;
+}
+.edit-movie__submit {
+  margin: 10px 0;
+}
