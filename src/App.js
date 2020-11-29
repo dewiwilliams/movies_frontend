@@ -9,7 +9,6 @@ import './App.css';
 function App() {
 
   const movieList = useSelector(movies);
-  console.log(movieList);
 
   useEffect(() => {
     initialiseApi(process.env.REACT_APP_API_LOCATION);
