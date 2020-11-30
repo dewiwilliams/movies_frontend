@@ -11,7 +11,7 @@ const EditMovieDialog = props => {
         setTitle(event.target.value);
     };
     const handleReleasedChange = event => {
-        setReleased(event.target.value);
+        setReleased(parseInt(event.target.value));
     };
     const handleOnSubmit = (event) => {
         event.preventDefault();
